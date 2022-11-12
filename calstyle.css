@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&family=Nanum+Gothic:wght@700&family=Poppins:ital,wght@1,200&display=swap');
+html body {
+width:100%;height:100%;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Poppins', sans-serif;
+background-image: url('back.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+}
+.calc {
+    position:fixed;
+    top:50%;left:50%;
+    transform:translate(-50% , -50%);
+    width:500px;height:450px;
+    margin:5px;
+    padding:10px;
+    border:1px solid black;
+    background-color: rgb(67, 67, 67);
+    color:black;
+    border-radius:10px;
+}
+.results {
+    background-color:#cecfac;
+   box-shadow: inset 0 0 8px black;
+   height:45px;
+   right:50px;
+   text-align:right;
+   margin:8px 10px 20px 10px;
+   font-size:40px;
+   padding-right:15px;
+   padding-bottom:10px;
+   overflow: hidden;
+}
+ul {
+    padding:0;margin:0;
+}
+ul li {
+    position:relative;left:20px;
+    list-style: none;
+    background: #4e4e4e;
+    padding:10px;
+    margin:10px;
+    width:15%;
+    float:left;
+    font-size:20px;
+    border-radius:5px;
+    cursor:pointer;
+    box-shadow:0 7px 0  0 #9a9a95;
+    font-size:20px;
+    text-align:center;
+}
+ul li:active {
+    position:relative;
+    top:5px;
+    box-shadow:none;
+}
+
+    
